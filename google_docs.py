@@ -51,12 +51,12 @@ def make_gae_link(app, rawtext, module, options):
     # we will write the module name in the documentation, but it will be hyperlinked to the corresponding Google page
     insert_text = module
 
-    set_clases(options)
+    set_classes(options)
 
     node = nodes.reference(rawtext, insert_text, refuri=ref, **options)
     return node
 
-def gae_docs_role(name, rawtext, text, lineno, ininer, options={}, content=[]):
+def gae_docs_role(name, rawtext, text, lineno, inliner, options={}, content=[]):
     """
     Process the Google appengine docs role
     """
