@@ -23,7 +23,7 @@ def setup(app):
 
     app.add_config_value("google_docs_home", "https://cloud.google.com/appengine/docs/python/refdocs/", "html")
 
-    app.add_role("gae", google_appengine_role)
+    app.add_role("gae", google_docs_role)
 
     return {"version": "0.1"}
 
