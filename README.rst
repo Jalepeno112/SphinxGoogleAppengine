@@ -24,7 +24,7 @@ Installation
        >>> sys.path.insert(0,os.path.abspath('sphinxext'))
    
    b) add this extension into the list of existing extensions
-        >>> extensions  = ["SphinxGoogleAppengine.wepay_docs"]
+        >>> extensions  = ["SphinxGoogleAppengine.google_docs"]
 
 Configuration Variables
 -------------------------
